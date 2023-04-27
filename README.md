@@ -1,2 +1,184 @@
 # 2365
 柠檬 Fiddler抓包实战教程
+### 微:NoBug1024 
+
+
+课程介绍：
+
+Fiddler 是一个 http 调试代理，它能 够记录所有的你电脑和互联网之间的 http 通讯，Fiddler 可以也可以让你检查所有的 http 通讯，设置断点，以及 Fiddle 所有的 “进出” 的数据（指 cookie,html,js,css 等文件，这些都可以让你胡乱修改的意思）。 Fiddler 要比其他的网络调试器要更加简单，因为它仅仅暴露 http 通讯还有提供一个用户友好的格式。
+
+〖课程目录〗:
+
+- ├──01 Fiddler抓包工具基础学习  
+- |   ├──01 01-Fiddler系列-课程简介+初识Fiddler.flv  47.62M
+- |   ├──02 02-Fiddler系列课-第一部分-BS架构简介和请求过程理解.flv  58.40M
+- |   ├──03 03-Fiddler系列课-第一部分-Fiddler原理.flv  21.67M
+- |   ├──04 04-Fiddler系列课-第一部分-HTTP协议概述.flv  32.34M
+- |   ├──05 05-Fiddler系列课-第一部分-HTTP协议请求报文详解.flv  87.25M
+- |   ├──06 06-Fiddler系列课-第一部分-HTTP协议响应报文详解.flv  77.71M
+- |   ├──07 07-Fiddler系列课-第二部分-Fiddler安装.flv  36.13M
+- |   ├──08 08-Fiddler系列课-第二部分-Fiddler菜单栏.flv  18.92M
+- |   ├──09 09-Fiddler系列课-第二部分-Fiddler工具栏-重放请求和移除请求.flv  37.93M
+- |   ├──10 10-Fiddler系列课-第二部分-Fiddler工具栏-2.flv  55.24M
+- |   ├──11 11-Fiddler系列课-第二部分-Session List会话列表.flv  47.34M
+- |   ├──12 12-Fiddler系列课-第二部分-状态栏与Quick Exec.flv  48.07M
+- |   ├──13 13-Fiddler系列课-第二部分-Statistics统计分析.flv  17.27M
+- |   ├──14 14-Fiddler系列课-第二部分-Inspector检查器.flv  33.21M
+- |   ├──15 15-Fiddler系列课-第二部分-AutoResponder自动响应器.flv  79.97M
+- |   ├──16 16-Fiddler系列课-第二部分-Composer设计器.flv  35.61M
+- |   ├──17 17-Fiddler系列课-第二部分-Filter过滤器.flv  44.72M
+- |   ├──18 18-Fiddler系列课-第二部分-断点应用.flv  42.71M
+- |   ├──19 19-Fiddler系列课-第二部分-弱网测试.flv  51.79M
+- |   ├──20 20-Fiddler系列课-第三部分-设置Fiddler捕获HTTPS流量.flv  32.11M
+- |   ├──21 21-Fiddler系列课-第三部分-设置Fiddler捕获Firefox HTTPS流量.flv  41.91M
+- |   ├──22 22-Fiddler系列课-第三部分-Android APP抓包详解.flv  85.48M
+- |   ├──23 23-Fiddler系列课-第三部分-iOS APP抓包详解.flv  35.17M
+- |   ├──24 24-Fiddler系列课-第四部分-Willow插件安装.flv  9.39M
+- |   └──25 25-Fiddler系列课-第四部分-Willow插件的使用.flv  54.40M
+- ├──02 fiddler抓包实战-高级应用  
+- |   ├──1 fiddler抓包实战.flv  341.61M
+- |   ├──2 fiddler高级应用.flv  291.00M
+- |   ├──3 Fiddler抓包工具实战1.flv  367.43M
+- |   └──4 Fiddler抓包工具实战2.flv  289.35M
+- ├──03 fiddler+jmeter的实战和进阶用法（小说app实战）  
+- |   └──03 fiddler+jmeter的实战和进阶用法（小说app实战）  
+- |   |   └──1 fiddler+jmeter的实战和进阶用法.flv  69.66M
+- ├──04 HTTP协议学习  
+- |   └──1 HTTP协议入门到精通.flv  335.45M
+- ├──05 TCPIP学习  
+- |   ├──1 第一课：TCPIP协议族.flv  57.73M
+- |   └──2 第二课：IP协议.flv  15.99M
+- ├──06 Fiddler入门到进阶  
+- |   ├──视频  
+- |   |   ├──01-Fiddler基本介绍&原理.avi  46.12M
+- |   |   ├──02-菜单&工具条&会话列表.flv  85.45M
+- |   |   ├──03-Fidller内建命令使用.avi  83.11M
+- |   |   ├──04-Fiddler的statistics和Inspectors介绍.avi  78.57M
+- |   |   ├──05-Fiddler使用AutoResponsor自定义转向.avi  81.42M
+- |   |   ├──06-Fiddler使用Composer自定义http请求.avi  22.79M
+- |   |   ├──07-Fiddler使用Filters过滤显示请求.avi  38.01M
+- |   |   ├──08-配置FireFox浏览器支持Fiddler.avi  41.98M
+- |   |   ├──09-Fiddler实现断点调试功能.avi  27.13M
+- |   |   ├──10-PC实现拦截Https数据&FireFox单独配置.flv  52.02M
+- |   |   ├──11-Fiddler实现iOS系统拦截http数据请求.avi  61.03M
+- |   |   ├──12-Fiddler实现iOS系统拦截https数据请求.avi  32.99M
+- |   |   └──13-Fiddler实现android手机网络数据拦截.avi  62.95M
+- |   └──文档  
+- |   |   └──Fiddler 实用教程.pdf  307.83kb
+- ├──07 超全fiddler详解  
+- |   ├──超全fiddler详解 1 免费好用即是王道  
+- |   |   ├──超全fiddler详解 1 免费好用即是王道.mp4  5.58M
+- |   |   └──超全fiddler详解 1 免费好用即是王道.pptx  61.22kb
+- |   ├──超全fiddler详解 10 监控面板的使用  
+- |   |   ├──超全fiddler详解 10 监控面板的使用.mp4  32.43M
+- |   |   └──超全fiddler详解 10 监控面板的使用.pptx  58.29kb
+- |   ├──超全fiddler详解 11 单会话信息面板  
+- |   |   ├──超全fiddler详解 11 单会话信息面板.mp4  77.44M
+- |   |   └──超全fiddler详解 11 单会话信息面板.pptx  59.12kb
+- |   ├──超全fiddler详解 12 抓包如何查看是get还是post  
+- |   |   └──使用fiddler抓包如何查看是get还是post.mp4  18.61M
+- |   ├──超全fiddler详解 2 初识界面与工作原理  
+- |   |   ├──超全fiddler详解 2 初识界面与工作原理.mp4  13.75M
+- |   |   └──超全fiddler详解 2 初识界面与工作原理.pptx  309.16kb
+- |   ├──超全fiddler详解 3 不同代理模式的区别  
+- |   |   ├──超全fiddler详解 3 不同代理模式的区别.mp4  7.54M
+- |   |   └──超全fiddler详解 3 不同代理模式的区别.pptx  55.76kb
+- |   ├──超全fiddler详解 4 工具条常用功能介绍  
+- |   |   ├──超全fiddler详解 4 工具条常用功能介绍.mp4  44.71M
+- |   |   └──超全fiddler详解 4 工具条常用功能介绍.pptx  58.92kb
+- |   ├──超全fiddler详解 5 工具条常用功能介绍2  
+- |   |   ├──超全fiddler详解 5 工具条常用功能介绍2.mp4  31.80M
+- |   |   └──超全fiddler详解 5 工具条常用功能介绍2.pptx  58.39kb
+- |   ├──超全fiddler详解 6 抓包浏览器的选择  
+- |   |   ├──超全fiddler详解 6 抓包浏览器的选择.mp4  74.13M
+- |   |   └──超全fiddler详解 6 抓包浏览器的选择.pptx  58.60kb
+- |   ├──超全fiddler详解 7 https的包要怎么抓  
+- |   |   ├──超全fiddler详解 7 https的包要怎么抓.mp4  93.04M
+- |   |   └──超全fiddler详解 7 https的包要怎么抓.pptx  94.49kb
+- |   ├──超全fiddler详解 8 如何连接手机抓包  
+- |   |   ├──超全fiddler详解 8 如何连接手机抓包.mp4  88.97M
+- |   |   └──超全fiddler详解 8 如何连接手机抓包.pptx  63.90kb
+- |   └──超全fiddler详解 9 状态栏常用操作  
+- |   |   ├──超全fiddler详解 9 状态栏常用操作.mp4  15.63M
+- |   |   └──超全fiddler详解 9 状态栏常用操作.pptx  56.02kb
+- ├──08 易语言与fiddler教程  
+- |   ├──10、JS代码变量与基本语法  
+- |   |   ├──010.docx  37.35kb
+- |   |   └──010JS代码变量与基本语法.mp4  318.88M
+- |   ├──11、使用JS代码控制DOM元素  
+- |   |   ├──011.docx  38.66kb
+- |   |   └──011使用JS代码控制DOM元素.mp4  271.71M
+- |   ├──12、使用诺离JS实现自动登录论坛  
+- |   |   └──012使用诺离JS实现自动登录论坛  
+- |   ├──13、使用填表方式登录论坛  
+- |   |   └──013使用填表方式登录论坛  
+- |   ├──1、什么是Fiddler 有什么作用  
+- |   |   ├──001.docx  37.16kb
+- |   |   └──001什么是Fiddler 有什么作用.mp4  18.49M
+- |   ├──2、安装官方正版Fiddler，实现监控数据  
+- |   |   ├──002 安装官方正版Fiddler，实现监控数据.mp4  81.43M
+- |   |   └──002.docx  36.35kb
+- |   ├──3、了解数据包的类型与结构  
+- |   |   ├──003.docx  37.54kb
+- |   |   └──003了解数据包的类型与结构.mp4  126.15M
+- |   ├──4、GET与POST的区别，Cookie是什么？  
+- |   |   ├──004.docx  37.58kb
+- |   |   └──004GET与POST的区别，Cookie是什么？.mp4  137.39M
+- |   ├──5、什么是js代码，js代码起到什么重要性？  
+- |   |   ├──005.docx  36.59kb
+- |   |   └──005什么是js代码，js代码起到什么重要性？.mp4  81.24M
+- |   ├──6、使用易语言简单搭建Fiddler接口并实现数据监听  
+- |   |   ├──006.docx  36.19kb
+- |   |   └──006使用易语言简单搭建Fiddler接口并实现数据监听.mp4  113.08M
+- |   ├──7、掌握Fiddler操作模块（一）  
+- |   |   ├──007.docx  36.77kb
+- |   |   ├──007掌握Fiddler操作模块（一）.mp4  122.03M
+- |   |   ├──README.txt  1.78kb
+- |   |   ├──刀网地址发布页.url  0.11kb
+- |   |   └──莆田潮牌店铺.url  0.12kb
+- |   ├──8、掌握Fiddler操作模块（二）  
+- |   |   ├──008.docx  36.25kb
+- |   |   └──008掌握Fiddler操作模块（二）.mp4  416.38M
+- |   ├──9、HTML代码与JS代码的区分  
+- |   |   ├──009.docx  37.03kb
+- |   |   └──009HTML代码与JS代码的区分.mp4  131.10M
+- |   ├──【视频教程】诺离fiddler拦截数据并二次利用POST搜索群信息  
+- |   |   └──【视频教程】诺离fiddler拦截数据并二次利用POST搜索群信息.mp4  149.94M
+- |   ├──高速内核填表教程  
+- |   |   └──高速内核填表教程.mp4  155.17M
+- |   ├──利用易语言fiddler接口实现替换POST参数  
+- |   |   └──利用易语言fiddler接口实现替换POST参数.mp4  148.01M
+- |   ├──奇易浏览框快速入门教程(视频模块版本2.0)  
+- |   |   ├──001.mp4  45.04M
+- |   |   ├──002.mp4  483.28M
+- |   |   └──说明文档.txt  0.18kb
+- |   ├──奇易模块4.8新功能视频教程  
+- |   |   └──奇易模块4.8新功能视频教程.mp4  38.18M
+- |   ├──使用奇易fiddler实现修改  
+- |   |   └──视频.exe  131.04M
+- |   ├──使用奇易模块初始化Fiddler常见的问题及解决方法视频  
+- |   |   ├──笔记.txt  0.28kb
+- |   |   └──视频1.exe  90.33M
+- |   ├──使用易语言对Fiddler二次开发教程  
+- |   |   ├──第二部分.exe  104.55M
+- |   |   ├──第一部分.exe  190.39M
+- |   |   └──教程文档.txt  0.03kb
+- |   ├──填表之滑块验证码识别（一）  
+- |   |   ├──滑块验证码（一）.docx  36.91kb
+- |   |   └──滑块验证码识别1.mp4  236.59M
+- |   ├──易语言FD实现论坛自动发帖（二）  
+- |   |   └──易语言FD实现论坛自动发帖（二）.mp4  153.65M
+- |   ├──易语言FD实现论坛自动发帖（一）  
+- |   |   └──易语言FD实现论坛自动发帖（一）.mp4  301.91M
+- |   ├──易语言Fiddler新手使用教程  
+- |   |   └──易语言Fiddler新手使用教程.mp4  171.31M
+- |   └──易语言调用Fiddler实现替换内容视频教程  
+- |   |   └──易语言调用Fiddler实现替换内容视频教程.mp4  63.86M
+- ├──09 Fiddler教程  
+- |   └──Jack老师公开课  
+- |   |   ├──案例  
+- |   |   ├──插件  
+- |   |   ├──基础  
+- |   |   └──Fiddler实战公开课.pptx  587.33kb
+- └──10 其它  
+- |   └──Debugging with Fiddler.2012.pdf  5.45M
